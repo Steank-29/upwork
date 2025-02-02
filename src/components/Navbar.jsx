@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AppBar, Box, Toolbar, Typography, Container, Avatar, Button, IconButton, Drawer } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import Logo from '../src/components/assets/DaArtis RB.png';
+import Logo from './assets/DaArtis RB.png';
 
 function Navbar() {
   const [drawerOpen, setDrawerOpen] = useState(false);

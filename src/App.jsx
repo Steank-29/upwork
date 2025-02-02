@@ -1,8 +1,15 @@
-import React from "react";
-import Navbar from "./Navbar";
+import React from 'react'
+import Layout from './components/Layout'
+import Home from './components/Home'
 
 function App() {
-  return <Navbar />;
+  return (
+    <React.Fragment>    
+      <Layout>
+        <Home/>
+      </Layout>
+    </React.Fragment>
+  )
 }
 
-export default App;
+export default App
