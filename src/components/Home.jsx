@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import InfiniteLooper from "./InfiniteLooper";
 
 // Background Images
-import HomeBG1 from "./assets/HomeBG1.jpg";
+import HomeBG1 from "./assets/HomeBG2.jpg";
 import HomeBG2 from "./assets/HomeBG2.jpg";
 
 // Image Imports
